@@ -127,3 +127,37 @@ Your reduce will need to support:
 <p align="center">
     <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit1-Assignment3/blob/master/Images/cli-calculator.gif" width="800" height="598" />
 </p>
+import UIKit
+
+```var calculatorOn = true
+var numbers = 0
+var myArrayofInts = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-1", "-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9"]
+
+while calculatorOn {
+var emptyArray = [String]()
+var userInput = readLine(a, b)\
+
+if userInput?.contains(myArrayofInts) ?? "invalid input" {
+func sumOfTwo (a: Int, b: Int) -> Int {
+return a + b
+}
+print(sumOfTwo(a: 4, b: 6))
+
+func diffOfTwo (a:Int, b:Int) -> Int {
+return a - b
+}
+print(diffOfTwo(a: 8, b: 6))
+
+func prodOfTwo (_ a:Int, _ b:Int) -> Int {
+return a * b
+}
+print(prodOfTwo(3, 9))
+
+
+func doMath(_ a: Double, _ b: Double, _ operation: (Double, Double) -> Double) -> Double {
+
+return operation (a,b)
+}
+}
+}
+```
